@@ -1,0 +1,153 @@
+/* General Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+small {
+    color: #e67e22;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn-blue {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.btn-white {
+    background-color: white;
+    color: #111827;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 1. Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+}
+
+/* 2. Hero Section */
+.hero {
+    background: linear-gradient(to right, #111827, #1f2937);
+    color: white;
+    display: flex;
+    padding: 60px 8%;
+    align-items: center;
+}
+
+.hero-text { flex: 1; }
+.hero-text h1 span { color: #e67e22; }
+.hero-img { flex: 1; text-align: right; }
+.hero-img img { width: 85%; border-radius: 10px; }
+
+/* 3. About Section */
+.about {
+    display: flex;
+    padding: 60px 8%;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-img img { width: 100%; border-radius: 10px; }
+.about-stats { display: flex; gap: 20px; margin-top: 20px; }
+
+/* 4. Collections Section */
+.services {
+    background: #f9fafb;
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.icon {
+    font-size: 24px;
+    background: #fff7ed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+/* 5. Features Section */
+.features {
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* 6. CTA Banner */
+.cta-banner {
+    background: #111827;
+    color: white;
+    margin: 40px 8%;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 7. Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    padding: 40px 8% 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer a { color: #94a3b8; text-decoration: none; }
+.footer-bottom { width: 100%; text-align: center; margin-top: 30px; border-top: 1px solid #1e293b; padding-top: 15px; }
